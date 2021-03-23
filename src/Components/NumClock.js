@@ -5,7 +5,7 @@ import BtnsTimeZones from './BtnsTimeZones';
 export default function tick() {
     const element = (
         <>
-            <div>
+            <div id={"clockBlock"}>
                 <h2>It is {new Date().toLocaleTimeString()}.</h2>
             </div>
             <div className="buttons">
